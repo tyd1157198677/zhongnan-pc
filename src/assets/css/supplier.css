@@ -1,0 +1,95 @@
+﻿
+    .cat-subcategory {
+     position: absolute;
+     display: none;
+     top: 0px;
+     z-index: 10;
+     width: 550px;
+     height: 500px;
+     border: 2px solid #ddd;
+     background: #fff;
+     overflow-y: scroll;
+ }
+
+.shadow {
+    position: relative;
+}
+
+.shadow a, .shadow a:hover {
+    color: #666;
+}
+
+.shadow-left li a:hover {
+    text-decoration: underline;
+}
+
+.shadow-left {
+    float: left;
+    display: inline;
+    min-height: 100px;
+    _height: 100px;
+}
+
+.shadow-left li {
+    float: left;
+    line-height: 18px;
+    width: 100%;
+}
+
+.shadow-left li a {
+    display: inline-block;
+    margin-right: 19px;
+    white-space: nowrap;
+}
+
+.shadow-left h3 {
+    font-size: 14px;
+    font-family: 'Microsoft YaHei' !important;
+    font-weight: bold;
+    border-left: 4px solid #666;
+    padding-left: 5px;
+}
+
+.entity-main {
+    overflow: hidden;
+    padding: 0 0 0 39px;
+    height: 100%;
+}
+
+ul .cate {
+    width: 100%;
+}
+
+.cate li {
+    float: left;
+    margin-left: 10px;
+    line-height: 28px;
+}
+
+.cate li a {
+    white-space: nowrap;
+    padding: 3px;
+}
+
+.cur-link {
+    background: #336699;
+    color: #fff;
+}
+
+.sub-cate a {
+    white-space: nowrap;
+    padding: 3px;
+}
+
+.sub-cate a:hover {
+    background: #336699;
+    color: #fff;
+}
+
+.cate li a:hover {
+    background: #336699;
+    color: #fff;
+}
+.lidtinput {
+    margin: 10px 5px;
+}
